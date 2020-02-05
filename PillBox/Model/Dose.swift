@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+
 class Dose {
     let id = 123
     var medicine: String

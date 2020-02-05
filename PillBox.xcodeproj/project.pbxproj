@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		DE735DB223E883A900FFDDC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DB123E883A900FFDDC9 /* AppDelegate.swift */; };
 		DE735DB423E883A900FFDDC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DB323E883A900FFDDC9 /* SceneDelegate.swift */; };
-		DE735DB623E883A900FFDDC9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DB523E883A900FFDDC9 /* FirstViewController.swift */; };
-		DE735DB823E883A900FFDDC9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DB723E883A900FFDDC9 /* SecondViewController.swift */; };
+		DE735DB623E883A900FFDDC9 /* DosageRegimenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DB523E883A900FFDDC9 /* DosageRegimenViewController.swift */; };
+		DE735DB823E883A900FFDDC9 /* MedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DB723E883A900FFDDC9 /* MedicineViewController.swift */; };
 		DE735DBB23E883A900FFDDC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE735DB923E883A900FFDDC9 /* Main.storyboard */; };
 		DE735DBD23E883AF00FFDDC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE735DBC23E883AF00FFDDC9 /* Assets.xcassets */; };
 		DE735DC023E883AF00FFDDC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE735DBE23E883AF00FFDDC9 /* LaunchScreen.storyboard */; };
@@ -20,6 +20,9 @@
 		DE735DEC23E8BF4600FFDDC9 /* Dose.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DEB23E8BF4600FFDDC9 /* Dose.swift */; };
 		DE735DEE23E8BF5700FFDDC9 /* Dosage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DED23E8BF5700FFDDC9 /* Dosage.swift */; };
 		DE735DF023E8C74100FFDDC9 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DEF23E8C74100FFDDC9 /* UserTests.swift */; };
+		DEF9931E23E9A681007A03A7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9931D23E9A681007A03A7 /* Service.swift */; };
+		DEF9932023E9AE60007A03A7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9931F23E9AE60007A03A7 /* ProfileViewController.swift */; };
+		DEF9932223EB6247007A03A7 /* DoseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9932123EB6247007A03A7 /* DoseDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +46,8 @@
 		DE735DAE23E883A900FFDDC9 /* PillBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PillBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE735DB123E883A900FFDDC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE735DB323E883A900FFDDC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE735DB523E883A900FFDDC9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DE735DB723E883A900FFDDC9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DE735DB523E883A900FFDDC9 /* DosageRegimenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosageRegimenViewController.swift; sourceTree = "<group>"; };
+		DE735DB723E883A900FFDDC9 /* MedicineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineViewController.swift; sourceTree = "<group>"; };
 		DE735DBA23E883A900FFDDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE735DBC23E883AF00FFDDC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE735DBF23E883AF00FFDDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +62,9 @@
 		DE735DEB23E8BF4600FFDDC9 /* Dose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dose.swift; sourceTree = "<group>"; };
 		DE735DED23E8BF5700FFDDC9 /* Dosage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dosage.swift; sourceTree = "<group>"; };
 		DE735DEF23E8C74100FFDDC9 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		DEF9931D23E9A681007A03A7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		DEF9931F23E9AE60007A03A7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DEF9932123EB6247007A03A7 /* DoseDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +119,10 @@
 				DE735DE423E8842500FFDDC9 /* Scenes */,
 				DE735DBE23E883AF00FFDDC9 /* LaunchScreen.storyboard */,
 				DE735DB923E883A900FFDDC9 /* Main.storyboard */,
-				DE735DB523E883A900FFDDC9 /* FirstViewController.swift */,
-				DE735DB723E883A900FFDDC9 /* SecondViewController.swift */,
+				DEF9932123EB6247007A03A7 /* DoseDetailsViewController.swift */,
+				DE735DB523E883A900FFDDC9 /* DosageRegimenViewController.swift */,
+				DE735DB723E883A900FFDDC9 /* MedicineViewController.swift */,
+				DEF9931F23E9AE60007A03A7 /* ProfileViewController.swift */,
 				DE735DBC23E883AF00FFDDC9 /* Assets.xcassets */,
 				DE735DB123E883A900FFDDC9 /* AppDelegate.swift */,
 				DE735DB323E883A900FFDDC9 /* SceneDelegate.swift */,
@@ -148,6 +156,7 @@
 				DE735DE923E8BF2900FFDDC9 /* TakenDose.swift */,
 				DE735DEB23E8BF4600FFDDC9 /* Dose.swift */,
 				DE735DED23E8BF5700FFDDC9 /* Dosage.swift */,
+				DEF9931D23E9A681007A03A7 /* Service.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -291,10 +300,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE735DEC23E8BF4600FFDDC9 /* Dose.swift in Sources */,
-				DE735DB823E883A900FFDDC9 /* SecondViewController.swift in Sources */,
+				DE735DB823E883A900FFDDC9 /* MedicineViewController.swift in Sources */,
+				DEF9932023E9AE60007A03A7 /* ProfileViewController.swift in Sources */,
 				DE735DEE23E8BF5700FFDDC9 /* Dosage.swift in Sources */,
-				DE735DB623E883A900FFDDC9 /* FirstViewController.swift in Sources */,
+				DE735DB623E883A900FFDDC9 /* DosageRegimenViewController.swift in Sources */,
 				DE735DB223E883A900FFDDC9 /* AppDelegate.swift in Sources */,
+				DEF9931E23E9A681007A03A7 /* Service.swift in Sources */,
+				DEF9932223EB6247007A03A7 /* DoseDetailsViewController.swift in Sources */,
 				DE735DE623E8957200FFDDC9 /* User.swift in Sources */,
 				DE735DB423E883A900FFDDC9 /* SceneDelegate.swift in Sources */,
 				DE735DEA23E8BF2900FFDDC9 /* TakenDose.swift in Sources */,

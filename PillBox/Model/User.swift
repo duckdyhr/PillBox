@@ -6,6 +6,7 @@
 //  Copyright © 2020 duckdyhr Inc. All rights reserved.
 
 import Foundation
+import UIKit
 
 class User{
     let id = 122

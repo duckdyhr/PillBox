@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  PillBox
 //
 //  Created by Anne Dyhr on 03/02/2020.
@@ -8,10 +8,13 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class DosageRegimenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+
+
 }
+
