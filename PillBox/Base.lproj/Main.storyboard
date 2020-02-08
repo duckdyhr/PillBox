@@ -134,7 +134,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="sRe-7G-9Ed" kind="show" id="D4H-yG-wPp"/>
+                                            <segue destination="sRe-7G-9Ed" kind="show" identifier="doseDetails" id="D4H-yG-wPp"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

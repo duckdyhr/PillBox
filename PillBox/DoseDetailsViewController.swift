@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import CoreData
 
-class DoseDetailsViewController: UIViewController {
+class DoseDetailsViewController: UIViewController, ManagedObjectContextDependentType {
+    var managedObjectContext: NSManagedObjectContext!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

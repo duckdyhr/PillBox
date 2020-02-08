@@ -22,6 +22,7 @@
 		DE735DF023E8C74100FFDDC9 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DEF23E8C74100FFDDC9 /* UserTests.swift */; };
 		DEEC99C423EF082A000E4E70 /* PillBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEEC99C223EF082A000E4E70 /* PillBox.xcdatamodeld */; };
 		DEEC99C623EF083D000E4E70 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC99C523EF083D000E4E70 /* CoreDataStack.swift */; };
+		DEEC99C823EF0F87000E4E70 /* DosageRegimenViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC99C723EF0F87000E4E70 /* DosageRegimenViewControllerTests.swift */; };
 		DEF9931E23E9A681007A03A7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9931D23E9A681007A03A7 /* Service.swift */; };
 		DEF9932023E9AE60007A03A7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9931F23E9AE60007A03A7 /* ProfileViewController.swift */; };
 		DEF9932223EB6247007A03A7 /* DoseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9932123EB6247007A03A7 /* DoseDetailsViewController.swift */; };
@@ -66,6 +67,7 @@
 		DE735DEF23E8C74100FFDDC9 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
 		DEEC99C323EF082A000E4E70 /* PillBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PillBox.xcdatamodel; sourceTree = "<group>"; };
 		DEEC99C523EF083D000E4E70 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		DEEC99C723EF0F87000E4E70 /* DosageRegimenViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosageRegimenViewControllerTests.swift; sourceTree = "<group>"; };
 		DEF9931D23E9A681007A03A7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		DEF9931F23E9AE60007A03A7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DEF9932123EB6247007A03A7 /* DoseDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseDetailsViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			children = (
 				DE735DCC23E883B000FFDDC9 /* Info.plist */,
 				DE735DEF23E8C74100FFDDC9 /* UserTests.swift */,
+				DEEC99C723EF0F87000E4E70 /* DosageRegimenViewControllerTests.swift */,
 			);
 			path = PillBoxTests;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE735DF023E8C74100FFDDC9 /* UserTests.swift in Sources */,
+				DEEC99C823EF0F87000E4E70 /* DosageRegimenViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,7 +19,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         
         let mainContext = createMainContext()
+        let firstViewController = getFirstViewController()
+        firstViewController.managedObjectContext = mainContext
+        
         guard let _ = (scene as? UIWindowScene) else { return }
+    }
+    
+    func getFirstViewController() -> DosageRegimenViewController {
+        // Get the window's root view controller (which is a navigation controller - tab bar controoler?)
+        let navigationController = window?.rootViewController as! UITabBarController
+        // Get navigation controllers first view controoler
+        // Cast to DosageRegimenController and return
+        let firstVC = navigationController.viewControllers![0]
+        return firstVC as! DosageRegimenViewController
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

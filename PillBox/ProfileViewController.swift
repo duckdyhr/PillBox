@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import CoreData
 
-class ProfileViewController: UIViewController {
+class ProfileViewController: UIViewController, ManagedObjectContextDependentType {
+    var managedObjectContext: NSManagedObjectContext!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

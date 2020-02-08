@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import CoreData
 
 /*
  CRUD dose (se drugstars for inspiration!) Vis liste af user.doses med mulighed for CRUD
  */
-class MedicineViewController: UIViewController {
-    var user = Service.shared().user
+class MedicineViewController: UIViewController, ManagedObjectContextDependentType {
+    var managedObjectContext: NSManagedObjectContext!
+    
+    var user = Service.shared().user //erstat med managedObjectContext
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,4 +45,10 @@ extension MedicineViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     // UITableViewDelegate funcs
+    
+    // MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! DoseDetailsViewController
+        destinationVC.managedObjectContext = self.managedObjectContext
+    }
 }
