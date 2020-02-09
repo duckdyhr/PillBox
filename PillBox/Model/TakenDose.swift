@@ -7,16 +7,18 @@
 //
 
 import Foundation
-import UIKit
+import CoreData
 
-class TakenDose {
-    var dose: Dose
-    var amount: Int
-    var whenTaken: DateComponents
+class TakenDose: NSManagedObject {
+    @NSManaged var dose: Dose
+    @NSManaged var amount: Int // how many pills...
+    @NSManaged var whenTaken: DateComponents
     
+    /*
     init(_ dose: Dose, numberOfDoses: Int, whenTaken: DateComponents) {
         self.dose = dose
         self.amount = numberOfDoses
         self.whenTaken = whenTaken
     }
+ */
 }

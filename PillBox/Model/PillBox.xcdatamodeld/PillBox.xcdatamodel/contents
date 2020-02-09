@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+    <entity name="Dose" representedClassName=".Dose" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="measure" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="medicine" attributeType="String"/>
+        <attribute name="unitType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TakenDose" representedClassName=".TakenDose" syncable="YES">
+        <attribute name="amount" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="whenTaken" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="whichDose" maxCount="1" deletionRule="No Action" destinationEntity="Dose"/>
+    </entity>
+    <elements>
+        <element name="Dose" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="TakenDose" positionX="-54" positionY="18" width="128" height="88"/>
+    </elements>
 </model>

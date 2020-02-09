@@ -7,14 +7,15 @@
 //
 
 import Foundation
-import UIKit
+import CoreData
 
-class Dose {
-    let id = 123
-    var medicine: String
-    var measure: Int // ratio/volume/weight/load/measure
-    var unitType: UnitType
+class Dose: NSManagedObject {
+    @NSManaged var id: UUID
+    @NSManaged var medicine: String
+    @NSManaged var measure: Int // ratio/volume/weight/load/measure
+    var unitType: UnitType = .MG
     // dosageForm (pill, liquid, syrup, cream etc)
+    @NSManaged var unitTypeAsString: String?
     
     init(medicinName: String, measure: Int, unitType: UnitType) {
         self.medicine = medicinName

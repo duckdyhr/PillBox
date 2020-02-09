@@ -18,6 +18,10 @@ func createMainContext() -> NSManagedObjectContext {
     let psc = NSPersistentStoreCoordinator(managedObjectModel: model)
     let storeURL = URL.documentsURL.appendingPathComponent("PillBox.sqlite")
     
+    // TODO! Use migrations
+    // Temporary solution: Sletter DB for at sikre den er opdateret med datamodellen (klares med migrations senere)
+    try! FileManager.default.removeItem(at: storeURL)
+    
     // Create and return NSManagedObjectContext
     try! psc.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: storeURL, options: nil)
     let context = NSManagedObjectContext(concurrencyType: .mainQueueConcurrencyType)
