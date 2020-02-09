@@ -19,11 +19,12 @@
 		DE735DEA23E8BF2900FFDDC9 /* TakenDose.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DE923E8BF2900FFDDC9 /* TakenDose.swift */; };
 		DE735DEC23E8BF4600FFDDC9 /* Dose.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DEB23E8BF4600FFDDC9 /* Dose.swift */; };
 		DE735DEE23E8BF5700FFDDC9 /* Dosage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DED23E8BF5700FFDDC9 /* Dosage.swift */; };
-		DE735DF023E8C74100FFDDC9 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DEF23E8C74100FFDDC9 /* UserTests.swift */; };
+		DE8F4FD323F06A26000DBCF2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F4FD223F06A26000DBCF2 /* DataService.swift */; };
+		DE8F4FD523F06C89000DBCF2 /* SaveAccessDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F4FD423F06C89000DBCF2 /* SaveAccessDelete.swift */; };
+		DE8F4FD823F096EE000DBCF2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8F4FD723F096EE000DBCF2 /* JavaScriptCore.framework */; };
 		DEEC99C423EF082A000E4E70 /* PillBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEEC99C223EF082A000E4E70 /* PillBox.xcdatamodeld */; };
 		DEEC99C623EF083D000E4E70 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC99C523EF083D000E4E70 /* CoreDataStack.swift */; };
 		DEEC99C823EF0F87000E4E70 /* DosageRegimenViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC99C723EF0F87000E4E70 /* DosageRegimenViewControllerTests.swift */; };
-		DEF9931E23E9A681007A03A7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9931D23E9A681007A03A7 /* Service.swift */; };
 		DEF9932023E9AE60007A03A7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9931F23E9AE60007A03A7 /* ProfileViewController.swift */; };
 		DEF9932223EB6247007A03A7 /* DoseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9932123EB6247007A03A7 /* DoseDetailsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -64,11 +65,12 @@
 		DE735DE923E8BF2900FFDDC9 /* TakenDose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakenDose.swift; sourceTree = "<group>"; };
 		DE735DEB23E8BF4600FFDDC9 /* Dose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dose.swift; sourceTree = "<group>"; };
 		DE735DED23E8BF5700FFDDC9 /* Dosage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dosage.swift; sourceTree = "<group>"; };
-		DE735DEF23E8C74100FFDDC9 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		DE8F4FD223F06A26000DBCF2 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DE8F4FD423F06C89000DBCF2 /* SaveAccessDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveAccessDelete.swift; sourceTree = "<group>"; };
+		DE8F4FD723F096EE000DBCF2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		DEEC99C323EF082A000E4E70 /* PillBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PillBox.xcdatamodel; sourceTree = "<group>"; };
 		DEEC99C523EF083D000E4E70 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		DEEC99C723EF0F87000E4E70 /* DosageRegimenViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosageRegimenViewControllerTests.swift; sourceTree = "<group>"; };
-		DEF9931D23E9A681007A03A7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		DEF9931F23E9AE60007A03A7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DEF9932123EB6247007A03A7 /* DoseDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8F4FD823F096EE000DBCF2 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +108,7 @@
 				DE735DC923E883B000FFDDC9 /* PillBoxTests */,
 				DE735DD423E883B000FFDDC9 /* PillBoxUITests */,
 				DE735DAF23E883A900FFDDC9 /* Products */,
+				DE8F4FD623F096EE000DBCF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +138,7 @@
 				DE735DB323E883A900FFDDC9 /* SceneDelegate.swift */,
 				DE735DC123E883AF00FFDDC9 /* Info.plist */,
 				DEEC99C523EF083D000E4E70 /* CoreDataStack.swift */,
+				DE8F4FD223F06A26000DBCF2 /* DataService.swift */,
 			);
 			path = PillBox;
 			sourceTree = "<group>";
@@ -142,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				DE735DCC23E883B000FFDDC9 /* Info.plist */,
-				DE735DEF23E8C74100FFDDC9 /* UserTests.swift */,
 				DEEC99C723EF0F87000E4E70 /* DosageRegimenViewControllerTests.swift */,
 			);
 			path = PillBoxTests;
@@ -153,6 +157,7 @@
 			children = (
 				DE735DD523E883B000FFDDC9 /* PillBoxUITests.swift */,
 				DE735DD723E883B000FFDDC9 /* Info.plist */,
+				DE8F4FD423F06C89000DBCF2 /* SaveAccessDelete.swift */,
 			);
 			path = PillBoxUITests;
 			sourceTree = "<group>";
@@ -164,7 +169,6 @@
 				DE735DE923E8BF2900FFDDC9 /* TakenDose.swift */,
 				DE735DEB23E8BF4600FFDDC9 /* Dose.swift */,
 				DE735DED23E8BF5700FFDDC9 /* Dosage.swift */,
-				DEF9931D23E9A681007A03A7 /* Service.swift */,
 				DEEC99C223EF082A000E4E70 /* PillBox.xcdatamodeld */,
 			);
 			path = Model;
@@ -175,6 +179,14 @@
 			children = (
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		DE8F4FD623F096EE000DBCF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE8F4FD723F096EE000DBCF2 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE735DEC23E8BF4600FFDDC9 /* Dose.swift in Sources */,
+				DE8F4FD323F06A26000DBCF2 /* DataService.swift in Sources */,
 				DE735DB823E883A900FFDDC9 /* MedicineViewController.swift in Sources */,
 				DEEC99C423EF082A000E4E70 /* PillBox.xcdatamodeld in Sources */,
 				DEF9932023E9AE60007A03A7 /* ProfileViewController.swift in Sources */,
@@ -316,7 +329,6 @@
 				DE735DB623E883A900FFDDC9 /* DosageRegimenViewController.swift in Sources */,
 				DEEC99C623EF083D000E4E70 /* CoreDataStack.swift in Sources */,
 				DE735DB223E883A900FFDDC9 /* AppDelegate.swift in Sources */,
-				DEF9931E23E9A681007A03A7 /* Service.swift in Sources */,
 				DEF9932223EB6247007A03A7 /* DoseDetailsViewController.swift in Sources */,
 				DE735DE623E8957200FFDDC9 /* User.swift in Sources */,
 				DE735DB423E883A900FFDDC9 /* SceneDelegate.swift in Sources */,
@@ -328,7 +340,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE735DF023E8C74100FFDDC9 /* UserTests.swift in Sources */,
 				DEEC99C823EF0F87000E4E70 /* DosageRegimenViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE735DD623E883B000FFDDC9 /* PillBoxUITests.swift in Sources */,
+				DE8F4FD523F06C89000DBCF2 /* SaveAccessDelete.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

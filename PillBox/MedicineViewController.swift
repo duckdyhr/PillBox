@@ -15,15 +15,17 @@ import CoreData
 class MedicineViewController: UIViewController, ManagedObjectContextDependentType {
     var managedObjectContext: NSManagedObjectContext!
     
-    var user = Service.shared().user //erstat med managedObjectContext
+    var user: User!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // I navigation: Vil gerne vise < Medicine, men ikke < Medicine Dose Details (fjern overskrift fra nagigation)
         self.title = "Medicine"
         // Do any additional setup after loading the view.
+        user = NSEntityDescription.insertNewObject(forEntityName: "User", into: managedObjectContext) as? User
     }
 }
+
 extension MedicineViewController: UITableViewDataSource, UITableViewDelegate {
     
     // UITableViewDataSource funcs

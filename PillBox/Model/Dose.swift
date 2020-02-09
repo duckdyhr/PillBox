@@ -10,17 +10,24 @@ import Foundation
 import CoreData
 
 class Dose: NSManagedObject {
-    @NSManaged var id: UUID
+    @NSManaged var id: UUID?
     @NSManaged var medicine: String
     @NSManaged var measure: Int // ratio/volume/weight/load/measure
-    var unitType: UnitType = .MG
+    @NSManaged var unitType: String?
     // dosageForm (pill, liquid, syrup, cream etc)
-    @NSManaged var unitTypeAsString: String?
+    static var entityName: String { return "Dose" }
     
+    /*
     init(medicinName: String, measure: Int, unitType: UnitType) {
         self.medicine = medicinName
         self.measure = measure
         self.unitType = unitType
+    }
+ */
+    
+    // Da NSManagedObject subklasser ikke kan have init()s, bruges awakeFromInsert i stedet til at initializere speciale default values
+    override func awakeFromInsert() {
+        
     }
 }
 

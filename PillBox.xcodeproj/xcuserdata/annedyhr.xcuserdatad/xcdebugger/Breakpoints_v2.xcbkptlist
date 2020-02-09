@@ -14,9 +14,133 @@
             filePath = "PillBox/SceneDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "getFirstViewController()"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B21B9E5D-15C7-487E-BBB7-9CE1E2CE272F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PillBox/MedicineViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "MedicineViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B21B9E5D-15C7-487E-BBB7-9CE1E2CE272F - 1754b49a282a406"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PillBox.MedicineViewController.user.getter : PillBox.User"
+                  moduleName = "PillBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annedyhr/Documents/Pill%20Box/Project/PillBox/PillBox/MedicineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "B21B9E5D-15C7-487E-BBB7-9CE1E2CE272F - 913c0480daa5412"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PillBox.MedicineViewController.user.setter : PillBox.User"
+                  moduleName = "PillBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annedyhr/Documents/Pill%20Box/Project/PillBox/PillBox/MedicineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "B21B9E5D-15C7-487E-BBB7-9CE1E2CE272F - c177ffeda9727001"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PillBox.MedicineViewController.user.modify : PillBox.User"
+                  moduleName = "PillBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annedyhr/Documents/Pill%20Box/Project/PillBox/PillBox/MedicineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "B21B9E5D-15C7-487E-BBB7-9CE1E2CE272F - a283997f25f6aa12"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PillBox.MedicineViewController.user.modify : PillBox.User with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "PillBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annedyhr/Documents/Pill%20Box/Project/PillBox/PillBox/MedicineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "B21B9E5D-15C7-487E-BBB7-9CE1E2CE272F - f8661b29553bb7c6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PillBox.MedicineViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; PillBox.MedicineViewController"
+                  moduleName = "PillBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annedyhr/Documents/Pill%20Box/Project/PillBox/PillBox/MedicineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "B21B9E5D-15C7-487E-BBB7-9CE1E2CE272F - d2dc4785d3c27c9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PillBox.MedicineViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;PillBox.MedicineViewController&gt;"
+                  moduleName = "PillBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annedyhr/Documents/Pill%20Box/Project/PillBox/PillBox/MedicineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "162">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14770D06-8CF1-422C-BC5C-3270859BC72B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PillBox/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "scene(_:willConnectTo:options:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -7,16 +7,19 @@
 //
 
 import Foundation
-import UIKit
+import CoreData
 
-class Dosage {
-    let dose: Dose
-    var amount: Int
-    var schedule: DateComponents
+class Dosage: NSManagedObject {
+    @NSManaged var dose: Dose
+    @NSManaged var amount: Int
+    @NSManaged var schedule: String
+    static var entityName: String { return "Dosage" }
     
+    /*
     init(_ dose: Dose, numberOfDoses: Int, whenToTake: DateComponents) {
         self.dose = dose
         self.amount = numberOfDoses
         self.schedule = whenToTake
     }
+ */
 }
