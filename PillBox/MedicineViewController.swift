@@ -15,14 +15,29 @@ import CoreData
 class MedicineViewController: UIViewController, ManagedObjectContextDependentType {
     var managedObjectContext: NSManagedObjectContext!
     
-    var user: User!
+    var user: User! // is set by fetchUser()
+    var sortedDoses: [Dose]!
     
+    @IBOutlet weak var dosesTableView: UITableView!
+    
+    
+    // I navigation: Vil gerne vise < Medicine, men ikke < Medicine Dose Details (fjern overskrift fra nagigation)
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // I navigation: Vil gerne vise < Medicine, men ikke < Medicine Dose Details (fjern overskrift fra nagigation)
-        self.title = "Medicine"
         // Do any additional setup after loading the view.
-        user = NSEntityDescription.insertNewObject(forEntityName: "User", into: managedObjectContext) as? User
+        super.viewDidLoad()
+        self.title = "Medicine"
+        fetchUser()
+        sortedDoses = user.doses.sorted()
+    }
+    
+    func fetchUser(){
+        let userFetchRequest = NSFetchRequest<User>(entityName: User.entityName)
+        do {
+            self.user = try self.managedObjectContext.fetch(userFetchRequest)[0]
+        } catch {
+            self.user = nil
+            print("Something went wrong, user is nil: \(error)")
+        }
     }
 }
 
@@ -35,7 +50,8 @@ extension MedicineViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "medicineDoseCell", for: indexPath)
-        cell.textLabel?.text = user.doses[indexPath.row].medicine
+        cell.textLabel?.text = sortedDoses[indexPath.row].medicine
+        //cell.textLabel?.text = user.userName
         cell.accessoryType = .disclosureIndicator
         cell.detailTextLabel?.text = "edit"
         return cell
@@ -43,14 +59,17 @@ extension MedicineViewController: UITableViewDataSource, UITableViewDelegate {
     
     // Optional function from UITableViewDataSource. Der findes også Reordering Table Rows function
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath){
-        
     }
     
     // UITableViewDelegate funcs
     
     // MARK: - Navigation
+    //For example, if the segue originated from a table view, the sender parameter would identify the table view cell that the user tapped.
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destinationVC = segue.destination as! DoseDetailsViewController
         destinationVC.managedObjectContext = self.managedObjectContext
+        // let tableViewCellSelected = sender as! UITableViewCell
+        let selectedRow = dosesTableView.indexPathForSelectedRow?.row ?? 0
+        destinationVC.currentDose = sortedDoses[selectedRow]
     }
 }

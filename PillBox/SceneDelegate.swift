@@ -20,6 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         // Injecting mainContext to tabbar viewcontrollers
         let mainContext = createMainContext()
+        
         // Get the window's root view controller (which is a navigation controller - tab bar controoler)
         let tabBarNavigationController = window?.rootViewController as! UITabBarController
         let dosageRegimenVC = tabBarNavigationController.viewControllers![0] as! DosageRegimenViewController
@@ -30,6 +31,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         medicineVC.managedObjectContext = mainContext
         profileVC.managedObjectContext = mainContext
         
+        // Seeding data from DataService
+        let dataService = DataService(managedObjectContext: mainContext)
+        dataService.seedUser()
         guard let _ = (scene as? UIWindowScene) else { return }
     }
     

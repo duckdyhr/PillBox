@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE624BD823F1DA3E00D0E90C /* Snippets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE624BD723F1DA3E00D0E90C /* Snippets.swift */; };
 		DE735DB223E883A900FFDDC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DB123E883A900FFDDC9 /* AppDelegate.swift */; };
 		DE735DB423E883A900FFDDC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DB323E883A900FFDDC9 /* SceneDelegate.swift */; };
 		DE735DB623E883A900FFDDC9 /* DosageRegimenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DB523E883A900FFDDC9 /* DosageRegimenViewController.swift */; };
@@ -14,13 +15,11 @@
 		DE735DBB23E883A900FFDDC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE735DB923E883A900FFDDC9 /* Main.storyboard */; };
 		DE735DBD23E883AF00FFDDC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE735DBC23E883AF00FFDDC9 /* Assets.xcassets */; };
 		DE735DC023E883AF00FFDDC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE735DBE23E883AF00FFDDC9 /* LaunchScreen.storyboard */; };
-		DE735DD623E883B000FFDDC9 /* PillBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DD523E883B000FFDDC9 /* PillBoxUITests.swift */; };
 		DE735DE623E8957200FFDDC9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DE523E8957200FFDDC9 /* User.swift */; };
 		DE735DEA23E8BF2900FFDDC9 /* TakenDose.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DE923E8BF2900FFDDC9 /* TakenDose.swift */; };
 		DE735DEC23E8BF4600FFDDC9 /* Dose.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DEB23E8BF4600FFDDC9 /* Dose.swift */; };
 		DE735DEE23E8BF5700FFDDC9 /* Dosage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE735DED23E8BF5700FFDDC9 /* Dosage.swift */; };
 		DE8F4FD323F06A26000DBCF2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F4FD223F06A26000DBCF2 /* DataService.swift */; };
-		DE8F4FD523F06C89000DBCF2 /* SaveAccessDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F4FD423F06C89000DBCF2 /* SaveAccessDelete.swift */; };
 		DE8F4FD823F096EE000DBCF2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8F4FD723F096EE000DBCF2 /* JavaScriptCore.framework */; };
 		DEEC99C423EF082A000E4E70 /* PillBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEEC99C223EF082A000E4E70 /* PillBox.xcdatamodeld */; };
 		DEEC99C623EF083D000E4E70 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC99C523EF083D000E4E70 /* CoreDataStack.swift */; };
@@ -37,16 +36,10 @@
 			remoteGlobalIDString = DE735DAD23E883A900FFDDC9;
 			remoteInfo = PillBox;
 		};
-		DE735DD223E883B000FFDDC9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE735DA623E883A900FFDDC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE735DAD23E883A900FFDDC9;
-			remoteInfo = PillBox;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE624BD723F1DA3E00D0E90C /* Snippets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snippets.swift; sourceTree = "<group>"; };
 		DE735DAE23E883A900FFDDC9 /* PillBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PillBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE735DB123E883A900FFDDC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE735DB323E883A900FFDDC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,15 +51,11 @@
 		DE735DC123E883AF00FFDDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE735DC623E883B000FFDDC9 /* PillBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PillBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE735DCC23E883B000FFDDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE735DD123E883B000FFDDC9 /* PillBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PillBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE735DD523E883B000FFDDC9 /* PillBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillBoxUITests.swift; sourceTree = "<group>"; };
-		DE735DD723E883B000FFDDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE735DE523E8957200FFDDC9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DE735DE923E8BF2900FFDDC9 /* TakenDose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakenDose.swift; sourceTree = "<group>"; };
 		DE735DEB23E8BF4600FFDDC9 /* Dose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dose.swift; sourceTree = "<group>"; };
 		DE735DED23E8BF5700FFDDC9 /* Dosage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dosage.swift; sourceTree = "<group>"; };
 		DE8F4FD223F06A26000DBCF2 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		DE8F4FD423F06C89000DBCF2 /* SaveAccessDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveAccessDelete.swift; sourceTree = "<group>"; };
 		DE8F4FD723F096EE000DBCF2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		DEEC99C323EF082A000E4E70 /* PillBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PillBox.xcdatamodel; sourceTree = "<group>"; };
 		DEEC99C523EF083D000E4E70 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
@@ -91,13 +80,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE735DCE23E883B000FFDDC9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -106,7 +88,6 @@
 			children = (
 				DE735DB023E883A900FFDDC9 /* PillBox */,
 				DE735DC923E883B000FFDDC9 /* PillBoxTests */,
-				DE735DD423E883B000FFDDC9 /* PillBoxUITests */,
 				DE735DAF23E883A900FFDDC9 /* Products */,
 				DE8F4FD623F096EE000DBCF2 /* Frameworks */,
 			);
@@ -117,7 +98,6 @@
 			children = (
 				DE735DAE23E883A900FFDDC9 /* PillBox.app */,
 				DE735DC623E883B000FFDDC9 /* PillBoxTests.xctest */,
-				DE735DD123E883B000FFDDC9 /* PillBoxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,16 +109,17 @@
 				DE735DE423E8842500FFDDC9 /* Scenes */,
 				DE735DBE23E883AF00FFDDC9 /* LaunchScreen.storyboard */,
 				DE735DB923E883A900FFDDC9 /* Main.storyboard */,
-				DEF9932123EB6247007A03A7 /* DoseDetailsViewController.swift */,
 				DE735DB523E883A900FFDDC9 /* DosageRegimenViewController.swift */,
 				DE735DB723E883A900FFDDC9 /* MedicineViewController.swift */,
+				DEF9932123EB6247007A03A7 /* DoseDetailsViewController.swift */,
 				DEF9931F23E9AE60007A03A7 /* ProfileViewController.swift */,
-				DE735DBC23E883AF00FFDDC9 /* Assets.xcassets */,
+				DE8F4FD223F06A26000DBCF2 /* DataService.swift */,
 				DE735DB123E883A900FFDDC9 /* AppDelegate.swift */,
 				DE735DB323E883A900FFDDC9 /* SceneDelegate.swift */,
-				DE735DC123E883AF00FFDDC9 /* Info.plist */,
 				DEEC99C523EF083D000E4E70 /* CoreDataStack.swift */,
-				DE8F4FD223F06A26000DBCF2 /* DataService.swift */,
+				DE624BD723F1DA3E00D0E90C /* Snippets.swift */,
+				DE735DBC23E883AF00FFDDC9 /* Assets.xcassets */,
+				DE735DC123E883AF00FFDDC9 /* Info.plist */,
 			);
 			path = PillBox;
 			sourceTree = "<group>";
@@ -150,16 +131,6 @@
 				DEEC99C723EF0F87000E4E70 /* DosageRegimenViewControllerTests.swift */,
 			);
 			path = PillBoxTests;
-			sourceTree = "<group>";
-		};
-		DE735DD423E883B000FFDDC9 /* PillBoxUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DE735DD523E883B000FFDDC9 /* PillBoxUITests.swift */,
-				DE735DD723E883B000FFDDC9 /* Info.plist */,
-				DE8F4FD423F06C89000DBCF2 /* SaveAccessDelete.swift */,
-			);
-			path = PillBoxUITests;
 			sourceTree = "<group>";
 		};
 		DE735DE323E8841C00FFDDC9 /* Model */ = {
@@ -227,24 +198,6 @@
 			productReference = DE735DC623E883B000FFDDC9 /* PillBoxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DE735DD023E883B000FFDDC9 /* PillBoxUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE735DE023E883B000FFDDC9 /* Build configuration list for PBXNativeTarget "PillBoxUITests" */;
-			buildPhases = (
-				DE735DCD23E883B000FFDDC9 /* Sources */,
-				DE735DCE23E883B000FFDDC9 /* Frameworks */,
-				DE735DCF23E883B000FFDDC9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE735DD323E883B000FFDDC9 /* PBXTargetDependency */,
-			);
-			name = PillBoxUITests;
-			productName = PillBoxUITests;
-			productReference = DE735DD123E883B000FFDDC9 /* PillBoxUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -259,10 +212,6 @@
 						CreatedOnToolsVersion = 11.3.1;
 					};
 					DE735DC523E883B000FFDDC9 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = DE735DAD23E883A900FFDDC9;
-					};
-					DE735DD023E883B000FFDDC9 = {
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = DE735DAD23E883A900FFDDC9;
 					};
@@ -283,7 +232,6 @@
 			targets = (
 				DE735DAD23E883A900FFDDC9 /* PillBox */,
 				DE735DC523E883B000FFDDC9 /* PillBoxTests */,
-				DE735DD023E883B000FFDDC9 /* PillBoxUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -306,13 +254,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE735DCF23E883B000FFDDC9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -329,6 +270,7 @@
 				DE735DB623E883A900FFDDC9 /* DosageRegimenViewController.swift in Sources */,
 				DEEC99C623EF083D000E4E70 /* CoreDataStack.swift in Sources */,
 				DE735DB223E883A900FFDDC9 /* AppDelegate.swift in Sources */,
+				DE624BD823F1DA3E00D0E90C /* Snippets.swift in Sources */,
 				DEF9932223EB6247007A03A7 /* DoseDetailsViewController.swift in Sources */,
 				DE735DE623E8957200FFDDC9 /* User.swift in Sources */,
 				DE735DB423E883A900FFDDC9 /* SceneDelegate.swift in Sources */,
@@ -344,15 +286,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE735DCD23E883B000FFDDC9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE735DD623E883B000FFDDC9 /* PillBoxUITests.swift in Sources */,
-				DE8F4FD523F06C89000DBCF2 /* SaveAccessDelete.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -360,11 +293,6 @@
 			isa = PBXTargetDependency;
 			target = DE735DAD23E883A900FFDDC9 /* PillBox */;
 			targetProxy = DE735DC723E883B000FFDDC9 /* PBXContainerItemProxy */;
-		};
-		DE735DD323E883B000FFDDC9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE735DAD23E883A900FFDDC9 /* PillBox */;
-			targetProxy = DE735DD223E883B000FFDDC9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -484,6 +412,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -582,46 +511,6 @@
 			};
 			name = Release;
 		};
-		DE735DE123E883B000FFDDC9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WLHNQW29GK;
-				INFOPLIST_FILE = PillBoxUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.duckdyhr.PillBoxUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PillBox;
-			};
-			name = Debug;
-		};
-		DE735DE223E883B000FFDDC9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WLHNQW29GK;
-				INFOPLIST_FILE = PillBoxUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.duckdyhr.PillBoxUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PillBox;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -648,15 +537,6 @@
 			buildConfigurations = (
 				DE735DDE23E883B000FFDDC9 /* Debug */,
 				DE735DDF23E883B000FFDDC9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE735DE023E883B000FFDDC9 /* Build configuration list for PBXNativeTarget "PillBoxUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE735DE123E883B000FFDDC9 /* Debug */,
-				DE735DE223E883B000FFDDC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

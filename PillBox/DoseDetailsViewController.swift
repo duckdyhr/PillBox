@@ -11,15 +11,15 @@ import CoreData
 
 class DoseDetailsViewController: UIViewController, ManagedObjectContextDependentType {
     var managedObjectContext: NSManagedObjectContext!
+    var currentDose: Dose!
+    var changesMade: Bool = false
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Dose details"
         // Do any additional setup after loading the view.
+        print(currentDose ?? "currentDose not set")
     }
-    
-
     
     // MARK: - Navigation
 
@@ -27,6 +27,7 @@ class DoseDetailsViewController: UIViewController, ManagedObjectContextDependent
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        // destinationVC burde være MedicineViewController. Sendes changes med tilbage.
     }
     
 

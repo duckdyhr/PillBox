@@ -11,7 +11,7 @@ import CoreData
 
 class TakenDose: NSManagedObject {
     @NSManaged var dose: Dose
-    @NSManaged var amount: Int // how many pills...
+    @NSManaged var amount: Int16 // how many pills...
     @NSManaged var whenTaken: NSDate
     
     static var entityName: String { return "TakenDose" }

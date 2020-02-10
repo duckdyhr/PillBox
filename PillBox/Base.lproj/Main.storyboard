@@ -156,6 +156,9 @@
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <navigationItem key="navigationItem" id="DnC-hL-RzF"/>
+                    <connections>
+                        <outlet property="dosesTableView" destination="PhZ-8m-gWk" id="7er-zX-3Bb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
